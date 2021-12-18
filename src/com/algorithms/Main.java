@@ -131,7 +131,7 @@ public class Main {
         int wordCounter = 0;
         Scanner sc2 = null;
         try {
-            sc2 = new Scanner(new File("C:\\CST-201\\Week1\\ArrayWarmupActivity\\src\\com\\algorithms\\myText.txt"));
+            sc2 = new Scanner(new File("myText.txt"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
